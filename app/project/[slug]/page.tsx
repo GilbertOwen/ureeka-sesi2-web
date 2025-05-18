@@ -122,17 +122,17 @@ export default function ProjectDetailPage() {
               ease: "linear",
             },
           }}
-          className="2xl:container 2xl:mx-auto mx-auto w-[90%] md:w-[80%] lg:w-[70%] place-content-center grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-4 md:gap-x-10"
+          className="2xl:container 2xl:mx-auto px-8 mx-auto w-[90%] md:w-[80%] lg:w-[70%] place-content-center grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-4 md:gap-x-10"
         >
           <Link
             target="_blank"
-            href={"https://github.com/GilbertOwen/g-portfolio"}
+            href={"/"}
             className="py-5 rounded-md px-4 text-lg md:text-2xl font-semibold text-[#F7DCB9] flex flex-col items-center justify-center cursor-pointer bg-[#B5C18E]"
           >
             Github
           </Link>
           <Link
-            href={"http://g-portfolio-alpha.vercel.app/"}
+            href={"/"}
             className="py-5 rounded-md px-4 text-lg md:text-2xl font-semibold text-[#F7DCB9] flex flex-col items-center justify-center cursor-pointer bg-[#B5C18E]"
           >
             Vercel
