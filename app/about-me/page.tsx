@@ -22,8 +22,8 @@ export default function About() {
     typeWriter();
   }, []);
   return (
-    <div className="bg-[#f8e5cd] min-h-screen grid lg:grid-cols-2 px-4 py-4 md:px-8 md:py-4 lg:px-14 lg:py-10 gap-14">
-      <div className="flex flex-col gap-6 py-8 px-10 bg-[#DDF6D2] border-2 h-fit my-auto rounded-3xl shadow-lg hover:translate-y-[-5px] transition-all duration-150 cursor-grab select-none">
+    <div className="bg-[#ECFAE5] min-h-screen grid lg:grid-cols-2 px-4 py-4 md:px-8 md:py-4 lg:px-14 lg:py-10 gap-14">
+      <div className="flex flex-col gap-6 py-8 px-10 bg-[#DDF6D2] border-2 border-black h-fit my-auto rounded-3xl shadow-lg hover:translate-y-[-5px] transition-all duration-150 cursor-grab select-none">
         <h2 className="text-4xl font-extrabold text-[#333333]">
           Hi, I'm Gilbert Owen
         </h2>
@@ -49,12 +49,12 @@ export default function About() {
       </div>
 
       {/* ← RIGHT PANEL */}
-      <div className="flex flex-col gap-4 py-6 px-10 bg-[#DDF6D2] h-full justify-between border-2 rounded-3xl items-center">
+      <div className="flex flex-col gap-4 py-6 px-10 bg-[#DDF6D2] h-full justify-between border-2 border-black rounded-3xl items-center">
         <Image
           src={"/image-portfolio.jpg"}
           width={1920}
           height={1080}
-          className="object-cover w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[350px] md:h-[350px] rounded-full"
+          className="object-cover border-black border-[2px] w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[350px] md:h-[350px] rounded-full"
           alt="Gilbert Owen"
         />
         <div
