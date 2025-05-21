@@ -93,7 +93,7 @@ export default function CarouselProject() {
               >
                 <Link
                   href={"/project/g-portfolio"}
-                  className="text-[#F7DCB9] mb-2 bg-[#DEAC80] select-none block w-fit rounded-lg py-2 hover:bg-[#F7DCB9] hover:text-[#DEAC80] transition-all px-10 text-2xl font-semibold"
+                  className="text-[#F7DCB9] mb-2 bg-[#a0b35f] select-none block w-fit rounded-lg py-2 hover:bg-[#F7DCB9] hover:text-[#DEAC80] transition-all px-10 text-2xl font-semibold"
                 >
                   Details
                 </Link>

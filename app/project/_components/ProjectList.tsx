@@ -1,9 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 import Link from "next/link";
-import { useEffect } from "react";
 
 type project = {
   name: string;
@@ -12,34 +9,10 @@ type project = {
   image: string;
   slug: string;
   url: string;
+  github: string;
 };
 
 export default function ProjectList({ projects }: { projects: project[] }) {
-  // useEffect(() => {
-  //   gsap.registerPlugin(ScrollTrigger);
-  //   const tl = gsap.timeline({
-  //     scrollTrigger: {
-  //       trigger: ".project-list",
-  //       scrub: true,
-  //       start: "top center",
-  //       end: "+=30%",
-  //       toggleActions: "play restart reverse none",
-  //     },
-  //   });
-  //   tl.from(".project-list", {
-  //     opacity: 0,
-  //     x: -1000,
-  //   });
-  //   tl.to(".project-list", {
-  //     opacity: 1,
-  //     x: 0,
-  //     duration: 2,
-  //   });
-
-  //   return () => {
-  //     tl.kill();
-  //   };
-  // });
   return (
     <motion.div
       initial={{ opacity: 0, y: 100 }}
